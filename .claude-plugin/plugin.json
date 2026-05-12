@@ -1,0 +1,13 @@
+{
+  "name": "claude-villagers",
+  "version": "0.1.0",
+  "description": "Age of Empires II Türk medeniyeti seslerini Claude Code hook'larına bağlar. Her tool çağrısında köylü 'Buyrun?' der, 'ultrathink' yazdığında sultan jingle'ı çalar.",
+  "author": {
+    "name": "Tekin Aydoğdu",
+    "url": "https://github.com/tekinnnnn"
+  },
+  "homepage": "https://github.com/tekinnnnn/claude-villagers",
+  "repository": "https://github.com/tekinnnnn/claude-villagers",
+  "license": "MIT",
+  "keywords": ["sounds", "hooks", "fun", "turkish", "aoe2", "audio"]
+}

@@ -1,0 +1,9 @@
+.DS_Store
+*.swp
+*.bak
+__pycache__/
+*.pyc
+
+# runtime artifacts
+/tmp/.claude-villagers-playing.lock
+/tmp/claude-villagers.log
