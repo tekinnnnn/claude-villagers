@@ -12,7 +12,7 @@
         "repo": "tekinnnnn/claude-villagers"
       },
       "description": "Age of Empires II Türk medeniyeti seslerini Claude Code hook'larına bağlayan ses paketi. Her tool çağrısında köylü 'Buyrun?' der.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "keywords": ["sounds", "hooks", "fun", "turkish", "aoe2"]
     }
   ]
