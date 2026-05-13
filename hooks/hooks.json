@@ -16,33 +16,8 @@
     ],
     "PreToolUse": [
       {
-        "matcher": "Bash",
         "hooks": [
-          { "type": "command", "command": "${CLAUDE_PLUGIN_ROOT}/scripts/play.sh bash" }
-        ]
-      },
-      {
-        "matcher": "Edit|Write|NotebookEdit",
-        "hooks": [
-          { "type": "command", "command": "${CLAUDE_PLUGIN_ROOT}/scripts/play.sh edit" }
-        ]
-      },
-      {
-        "matcher": "Read|Grep|Glob",
-        "hooks": [
-          { "type": "command", "command": "${CLAUDE_PLUGIN_ROOT}/scripts/play.sh read" }
-        ]
-      },
-      {
-        "matcher": "Task|Agent",
-        "hooks": [
-          { "type": "command", "command": "${CLAUDE_PLUGIN_ROOT}/scripts/play.sh agent --force" }
-        ]
-      },
-      {
-        "matcher": "WebFetch|WebSearch",
-        "hooks": [
-          { "type": "command", "command": "${CLAUDE_PLUGIN_ROOT}/scripts/play.sh web" }
+          { "type": "command", "command": "${CLAUDE_PLUGIN_ROOT}/scripts/play.sh tool" }
         ]
       }
     ],

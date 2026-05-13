@@ -59,11 +59,7 @@ Kaldırmak için `./uninstall.sh` — yedeği geri yükler.
 | `SessionStart` | session-start | Turks jingle (DE) |
 | `UserPromptSubmit` | select | Villager _"Buyrun?"_ |
 | `UserPromptSubmit` + thinking keyword | ultrathink | Sultan jingle (random 2 versiyon) |
-| `PreToolUse` / Bash | bash | Asker hareket sesi |
-| `PreToolUse` / Edit\|Write\|NotebookEdit | edit | Köylü inşaat/onarım |
-| `PreToolUse` / Read\|Grep\|Glob | read | Köylü kaynak toplama |
-| `PreToolUse` / Task\|Agent | agent | King select (sultan emir) |
-| `PreToolUse` / WebFetch\|WebSearch | web | Köylü forage |
+| `PreToolUse` (tüm tool'lar) | tool | Köylü inşa sesi (tek ses, monoton tarafından bilinçli tercih) |
 | `PostToolUse` + `is_error` | error | Asker savaş narası |
 | `Notification` | notify | Monk sesleri (sakin) |
 | `Stop` | done | King move (görev tamam) |
